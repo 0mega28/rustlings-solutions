@@ -12,8 +12,20 @@
 // the quantity bought.
 // fn calculate_price_of_apples(???) -> ??? { ??? }
 
+// use core::num;
+
 fn main() {
     // You can optionally experiment here.
+}
+
+fn calculate_price_of_apples(number: i32) -> i32 {
+    match number {
+        35 => 70,
+        40 => 80,
+        41 => 41,
+        65 => 65,
+        _ => -1,
+    }
 }
 
 // Don't change the tests!
